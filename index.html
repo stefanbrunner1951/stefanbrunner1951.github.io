@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stefans Rechnerecke – Stefan Brunner, St. Gallen</title>
+<meta name="description" content="Private Hobbyseite von Stefan Brunner, St. Gallen: alte Heimcomputer, BASIC und Tipps aus 40 Jahren Programmierpraxis. Tel. 071 539 20 53">
+<meta name="author" content="Stefan Brunner">
+<style>
+  body { margin: 0; background: #f4f1e8; color: #222; font: 17px/1.55 Georgia, "Times New Roman", serif; }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  header { border-bottom: 3px double #6b5b3e; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; color: #3b2f1c; }
+  h2 { font-size: 1.3rem; color: #3b2f1c; border-bottom: 1px solid #c9bfa8; padding-bottom: .2rem; margin-top: 2rem; }
+  .sub { color: #6b5b3e; margin: 0 0 1rem; }
+  .kontakt { background: #fffbe9; border: 1px solid #c9bfa8; padding: .8rem 1rem; }
+  .kontakt strong { font-size: 1.2rem; }
+  a { color: #1d4f91; }
+  code, pre { font-family: "Courier New", monospace; }
+  pre { background: #20306b; color: #a7b4ff; padding: .8rem; overflow-x: auto; }
+  footer { margin-top: 3rem; border-top: 1px solid #c9bfa8; padding-top: .8rem; font-size: .9rem; color: #555; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Stefans Rechnerecke</h1>
+  <p class="sub">Die private Hobbyseite von Stefan Brunner, St. Gallen-Bruggen</p>
+</header>
+
+<p>Grüezi und willkommen! Ich bin Stefan Brunner, Jahrgang 1951, pensionierter Softwareentwickler.
+Über 40 Jahre habe ich programmiert: angefangen mit Lochkarten, später Assembler, C und zuletzt noch ein wenig Java.
+Hier schreibe ich auf, was ich über die alten Heimcomputer weiss. Das meiste davon gilt übrigens heute noch.</p>
+
+<div class="kontakt">
+  E-Mails lese ich nicht jeden Tag. Am schnellsten erreichen Sie mich am Telefon:<br>
+  <strong><a href="tel:+41715392053">071 539 20 53</a></strong> (aus dem Ausland +41 71 539 20 53)
+</div>
+
+<h2>Meine Rechner</h2>
+<ul>
+  <li><strong>Commodore 64</strong> (1983): mein erster eigener Computer. Läuft immer noch, mit Datasette und 1541-Laufwerk.</li>
+  <li><strong>Amiga 500</strong> (1988): für Grafik unschlagbar. Die Maus habe ich zweimal neu gelötet.</li>
+  <li><strong>Atari 1040 ST</strong>: den hatte ich im Büro für MIDI und Textverarbeitung.</li>
+  <li>Dazu ein Windows-PC für die E-Mails. Den richte ich natürlich selbst ein.</li>
+</ul>
+
+<h2>Tipps aus der Praxis</h2>
+<ul>
+  <li>Ein langsamer Computer braucht meistens nur eine gründliche Defragmentierung. Einmal im Monat reicht.</li>
+  <li>Wichtige Daten immer doppelt speichern: einmal auf der Festplatte, einmal auf Diskette oder CD.</li>
+  <li>Ein Virenschutz ist gut, aber am wichtigsten ist, dass man weiss, was man tut.</li>
+  <li>Programme schreibe ich zuerst auf Papier. Das spart am Bildschirm viel Zeit.</li>
+</ul>
+
+<h2>BASIC-Sammlung</h2>
+<p>Einige meiner kleinen Programme aus den Achtzigern habe ich abgetippt:
+<a href="https://github.com/stefanbrunner1951/c64-basic-sammlung">github.com/stefanbrunner1951/c64-basic-sammlung</a>.
+Zum Beispiel ein Zinsrechner:</p>
+<pre>10 INPUT "ANFANGSKAPITAL (FR)";K
+20 INPUT "ZINS IN PROZENT";P
+30 INPUT "JAHRE";N
+40 FOR J=1 TO N:K=K*(1+P/100):NEXT J
+50 PRINT "ENDKAPITAL:";INT(K*100+.5)/100</pre>
+
+<h2>Märklin-Ecke</h2>
+<p>Im Keller steht meine Märklin-H0-Anlage, analog gesteuert, wie es sich gehört. Wer alte Lokomotiven oder Wagen abzugeben hat, darf sich gerne melden.</p>
+
+<h2>Kontakt</h2>
+<p>Fragen zu alten Rechnern oder zur Modellbahn beantworte ich gerne.<br>
+Telefon: <a href="tel:+41715392053">071 539 20 53</a> · +41 71 539 20 53<br>
+E-Mail: <a href="mailto:stefan.brunner.1951@proton.me">stefan.brunner.1951@proton.me</a></p>
+
+<footer>
+  <strong>Impressum</strong><br>
+  Stefan Brunner, 9014 St. Gallen, Schweiz<br>
+  Tel. +41715392053 · stefan.brunner.1951@proton.me<br>
+  Private Hobbyseite, kein Verein, kein Handelsregistereintrag.<br>
+  Zuletzt aktualisiert: 29.09.2026
+</footer>
+</div>
+</body>
+</html>
